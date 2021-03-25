@@ -16,6 +16,9 @@ app.use(express.json());
 // base de datos
 dbConnection();
 
+// directorio público
+app.use(express.static('public'));
+
 // https://cloud.mongodb.com/ Database Access --> u, p
 // mean_user
 // Bw82iYemj53CH2Yw
